@@ -12,6 +12,7 @@ body {
   background-size: cover;
   height: 1100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 
 }
@@ -21,7 +22,14 @@ body {
   padding-top: 15px;
   width: 380px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center; 
+}
+.fondo{
+
+}
+footer{
+  width: 100%;
 }
 
 /**********fin fondo*********/
@@ -42,6 +50,11 @@ header nav ul li,.menuOculto li {
 header nav ul li a,.menuOculto li a {
 text-decoration: none;
 }
+.menuOculto li{
+  font-size: larger;
+  font-weight: 600;
+  color: black;
+} 
 
 .oculto{
   visibility:hidden;
@@ -73,36 +86,37 @@ main .slider {
 
 /******************fin slider *****************/
 /**************footer******************/
-footer {
-  background: rgba(0, 0, 0, 0.9);
-
-  width: 100%;
-  height: 3%;
-  padding-top: 2%;
-  color: black;
+footer{
+  display: flex;
+  justify-content: center;
 }
-
 footer nav ul {
   display: flex;
-  flex-wrap: wrap;
+  
   justify-content: center;
 }
 
 footer nav ul li {
   list-style: none;
   padding: 0 4%;
-
 }
 
 footer nav ul li a {
   text-decoration: none;
   color: rgb(0, 0, 0);
-
 }
-
+.liHome a img{
+  width: 50px;
+  padding: 5px 5px;
+}
 .menuFooter {
-  width: 80%;
-  margin: auto;
+  padding: 1.5% 10% 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 50px;
+  box-shadow: -40% -70px 63px -60px #494848;
 }
 
 /*********fin footer**************/
