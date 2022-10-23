@@ -25,3 +25,23 @@ elemento.addEventListener("click", () => {
 
   })
 });
+
+/************footer*********** */
+/*
+document.querySelector("#home").addEventListener("click",(e)=>{
+  e.preventDefault();
+  document.querySelector("#home").src="./img/pagina-de-inicioG.png";
+})
+document.querySelector("#search").addEventListener("click",(e)=>{
+  e.preventDefault();
+  document.querySelector("#search").src="./img/searchG.png";
+})
+document.querySelector("#call").addEventListener("click",(e)=>{
+  e.preventDefault();
+  document.querySelector("#call").src="./img/phone-callG.png";
+})
+/*document.querySelector("#user").addEventListener("click",(e)=>{
+  e.preventDefault();
+  document.querySelector("#user").src="./img/usuarioG.png";
+})*/
+/************footer*********** */
