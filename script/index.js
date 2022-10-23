@@ -10,11 +10,11 @@ const element = document.querySelector('.menuOculto');
 const elemento = document.querySelector('.lihamb');
 
 elemento.addEventListener("click", () => {
- 
+
   if (flag == 0) {
     element.classList.remove("oculto");
   }
-  flag=1;
+  flag = 1;
   element.classList.forEach(el => {
 
     element.classList.toggle("visible");
@@ -27,21 +27,18 @@ elemento.addEventListener("click", () => {
 });
 
 /************footer*********** */
-/*
-document.querySelector("#home").addEventListener("click",(e)=>{
-  e.preventDefault();
-  document.querySelector("#home").src="./img/pagina-de-inicioG.png";
+document.querySelector("#search").addEventListener("click", () => {
+
+  let inputSearch = document.querySelector("#inpSearch")
+  inputSearch.focus();
+  let divSearch = document.querySelector(".searcher")
+  divSearch.classList.toggle("oculto");
+  divSearch.classList.toggle("visible");
 })
-document.querySelector("#search").addEventListener("click",(e)=>{
+document.querySelector(".searcher a").addEventListener("click", (e) => {
   e.preventDefault();
-  document.querySelector("#search").src="./img/searchG.png";
+  let divSearch = document.querySelector(".searcher")
+  divSearch.classList.toggle("oculto");
+  divSearch.classList.toggle("visible");
 })
-document.querySelector("#call").addEventListener("click",(e)=>{
-  e.preventDefault();
-  document.querySelector("#call").src="./img/phone-callG.png";
-})
-/*document.querySelector("#user").addEventListener("click",(e)=>{
-  e.preventDefault();
-  document.querySelector("#user").src="./img/usuarioG.png";
-})*/
 /************footer*********** */
