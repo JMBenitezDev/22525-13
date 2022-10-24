@@ -9,60 +9,150 @@
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
+    <script src="script/index.js"></script>
 
 
 </head>
 
 <body>
-    <div class="contenedor">
-        <div class="fondo">
-            <header>
-                <section class="menuHeader">
-                    <nav>
-                        <ul>
-                            <li class="lilogo">
-                                <a href="index.html"><img id="log" src="./logo.png" alt="Logo restaurant"
-                                        width="100%"></a>
-                            </li>
-                            <ul class="menuOculto oculto animate__animated animate__backOutRight">
-                                <li><a href="">Menú</a></li>
-                                <li><a href=""> Nosotros</a></li>
-                                <li><a href="">Reservas</a></li>
-                            </ul>
-                            <li class="lihamb"><a><img src="./img/menuburguerB.png" alt="Burguer menu" width="100%"></a>
-                            </li>
+    <div class="contenedor"> </div>
+    <div class="fondo">
+        <header>
+            <section class="menuHeader">
+                <nav>
+                    <ul>
+                        <li class="lilogo">
+                            <a href="index.html"><img id="log" src="./logo.png" alt="Logo restaurant" width="100%"></a>
+                        </li>
+                        <ul class="menuOculto oculto animate__animated animate__backOutRight">
+                            <li><a href="">Menú</a></li>
+                            <li><a href=""> Nosotros</a></li>
+                            <li><a href="">Reservas</a></li>
                         </ul>
-                    </nav>
-                </section>
-            </header>
-            <main>
-                <section>
-                    <!-- seccion plato del dia-->
-                    <div class="slider">
-                        <img src="" alt="">
-                    </div>
-                    <section class="platoDelDia">
-                        <div class="banner">
-                            <h2 id="text">Plato del dia</h2>
+                        <li class="lihamb"><a><img src="./img/menuburguerB.png" alt="Burguer menu" width="100%"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <main>
+            <section>
+                <!-- seccion plato del dia-->
+                <div class="slider">
+                    <img src="" alt="">
+                </div>
+                <section class="platoDelDia">
+                    <div class="banner">
+                        <h2 id="text">Plato del dia, Risotto con camarones</h2>
 
-                            <div class="clouds">
-                                <img src="./img/cloud1.png" alt="una nube" style="--i:1;width: 100%;">
-                                <img src="./img/cloud2.png" alt="una nube" style="--i:2;width: 100%">
-                                <img src="./img/cloud3.png" alt="una nube" style="--i:3;width: 100%">
-                                <img src="./img/cloud4.png" alt="una nube" style="--i:4;width: 100%">
-                                <img src="./img/cloud5.png" alt="una nube" style="--i:5;width: 100%">
-                                <img src="./img/cloud1.png" alt="una nube" style="--i:10;width: 100%">
-                                <img src="./img/cloud2.png" alt="una nube" style="--i:9;width: 100%">
-                                <img src="./img/cloud3.png" alt="una nube" style="--i:8;width: 100%">
-                                <img src="./img/cloud4.png" alt="una nube" style="--i:7;width: 100%">
-                                <img src="./img/cloud4.png" alt="una nube" style="--i:7;width: 100%">
-                                <img src="./img/cloud5.png" alt="una nube" style="--i:6;width: 100%">
-                            </div>
+                        <div class="clouds">
+                            <img src="./img/cloud1.png" alt="una nube" style="--i:1;width: 100%;">
+                            <img src="./img/cloud2.png" alt="una nube" style="--i:2;width: 100%">
+                            <img src="./img/cloud3.png" alt="una nube" style="--i:3;width: 100%">
+                            <img src="./img/cloud4.png" alt="una nube" style="--i:4;width: 100%">
+                            <img src="./img/cloud5.png" alt="una nube" style="--i:5;width: 100%">
+                            <img src="./img/cloud1.png" alt="una nube" style="--i:10;width: 100%">
+                            <img src="./img/cloud2.png" alt="una nube" style="--i:9;width: 100%">
+                            <img src="./img/cloud3.png" alt="una nube" style="--i:8;width: 100%">
+                            <img src="./img/cloud4.png" alt="una nube" style="--i:7;width: 100%">
+                            <img src="./img/cloud4.png" alt="una nube" style="--i:7;width: 100%">
+                            <img src="./img/cloud5.png" alt="una nube" style="--i:6;width: 100%">
                         </div>
-                        <section class="secText">
-                            <h2>Risotto con camarones</h2>
-                            <p>Una preparación de origen italiano en donde el arroz se cocina por etapas a partir de
+                    </div>
+
+                </section>
+            </section>
+            <section class="especialidadCasa">
+                <!--seccion especialidad de la casa-->
+                <h2 id="textEsp">Especialidad de la casa</h2>
+
+                <div class="fondoBanner">
+
+
+                    <div class="bannerEsp">
+                        <!--plato1-->
+                        <div class="fotoEspecialidad">
+                            <img src="/img/familyrestaurant7.jpg" alt="">
+                        </div>
+                        <div class="descripcionEspecialidad">
+
+                            <p>Una preparación de origen italiano en donde el arroz se cocina por etapas a
+                                partir de
+                                caldo
+                                de
+                                verduras.
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="fondoBanner">
+
+                    <div class="bannerEsp">
+                        <!--plato2-->
+                        <div class="fotoEspecialidad">
+                            <img src="/img/familyrestaurant7.jpg" alt="">
+                        </div>
+                        <div class="descripcionEspecialidad">
+
+                            <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="especialidadCasa">
+                <!--seccion mas vendidos-->
+                <h2 id="textEsp">Mas vendidos</h2>
+
+                <div class="fondoBanner">
+
+
+                    <div class="bannerEsp">
+                        <!--plato1-->
+                        <div class="fotoEspecialidad">
+                            <img src="/img/familyrestaurant7.jpg" alt="">
+                        </div>
+                        <div class="descripcionEspecialidad">
+
+                            <p>Una preparación de origen italiano en donde el arroz se cocina por etapas a
+                                partir de
+                                caldo
+                                de
+                                verduras,
+                                dando como resultado un platillo cremoso que se acompaña con los mas deliciosos
+
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="fondoBanner">
+
+                    <div class="bannerEsp">
+                        <!--plato2-->
+                        <div class="fotoEspecialidad">
+                            <img src="/img/familyrestaurant7.jpg" alt="">
+                        </div>
+                        <div class="descripcionEspecialidad">
+
+                            <p>Una preparación de origen italiano en donde el arroz se cocina por etapas a
+                                partir de
                                 caldo
                                 de
                                 verduras,
@@ -70,73 +160,55 @@
                                 camarones.
 
                             </p>
-                        </section>
-                    </section>
-                </section>
-                <section class="especialidadCasa">
-                    <!--seccion especialidad de la casa-->
-                    <div class="bannerEsp">
-                        <h2 id="textEsp">Especialidad de la casa</h2>
-                        <div class="clouds">
-
-
                         </div>
                     </div>
-                    <section class="secTextEsp">
-                        <h2>Risotto con camarones</h2>
-                        <p>Una preparación de origen italiano en donde el arroz se cocina por etapas a partir de
-                            caldo
-                            de
-                            verduras,
-                            dando como resultado un platillo cremoso que se acompaña con los mas deliciosos
-                            camarones.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque veniam doloremque similique. Dolor sunt minima mollitia autem quam est veritatis. Quasi veniam tempore consequatur autem vel quia sed officia adipisci?
-                        </p>
-                    </section>
-                </section>
-                <section class="eventos">
-                    <!--seccion Iframe-->
-                    <article class="iFrame">
-
-                    </article>
-                </section>
-            </main>
-
-
-            <footer>
-                <div class="searcher oculto">
-                    <input type="text" name="search" id="inpSearch" placeholder="Buscar">
-
-                    <a href="" id="aSend"></a>
                 </div>
-                <section class="menuFooter">
 
-                    <nav>
-                        <ul>
-                            <li id="home">
-                                <a href="index.html"></a>
-                            </li>
-                            <li id="search">
-                                <a href=""></a>
-                            </li>
-                            <li id="call">
-                                <a href="tel:223155012343"></a>
-                            </li>
-                            <li id="user">
-                                <a href=""></a>
-                            </li>
-                        </ul>
-                    </nav>
-                </section>
+            </section>
 
-                <section class="api">
-                    <!--seccion API-->
 
-                </section>
-            </footer>
-        </div>
+
+            <section class="eventos">
+                <!--seccion Iframe-->
+                <article class="iFrame">
+
+                </article>
+            </section>
+        </main>
+        <footer>
+            <div class="searcher oculto">
+                <input type="text" name="search" id="inpSearch" placeholder="Buscar">
+
+                <a href="" id="aSend"></a>
+            </div>
+            <section class="menuFooter">
+
+                <nav>
+                    <ul>
+                        <li id="home">
+                            <a href="index.html"></a>
+                        </li>
+                        <li id="search">
+                            <a href=""></a>
+                        </li>
+                        <li id="call">
+                            <a href="tel:223155012343"></a>
+                        </li>
+                        <li id="user">
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="api">
+                <!--seccion API-->
+
+            </section>
+        </footer>
     </div>
-    <script src="script/index.js"></script>
+
+
 </body>
 
 </html>
