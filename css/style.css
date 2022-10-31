@@ -139,14 +139,14 @@ footer {
 
 .searcher a {
   margin-left: 15px;
-  background-image: url("/img/sentB.png");
+  background-image: url("../img/sentB.png");
   width: 30px;
   height: 30px;
   background-size: cover;
 }
 
 .searcher a:active {
-  background-image: url("/img/sentN.png");
+  background-image: url("../img/sentN.png");
 }
 
 footer nav ul {
@@ -188,35 +188,35 @@ footer nav ul li a {
 }
 
 #home {
-  background-image: url("/img/pagina-de-inicio.png");
+  background-image: url("../img/pagina-de-inicio.png");
 }
 
 #home:active {
-  background-image: url("/img/pagina-de-inicioG.png");
+  background-image: url("../img/pagina-de-inicioG.png");
 }
 
 #call {
-  background-image: url("/img/phone-callN.png");
+  background-image: url("../img/phone-callN.png");
 }
 
 #call:active {
-  background-image: url("/img/phone-callG.png");
+  background-image: url("../img/phone-callG.png");
 }
 
 #search {
-  background-image: url("/img/searchN.png");
+  background-image: url("../img/searchN.png");
 }
 
 #search:active {
-  background-image: url("/img/searchG.png");
+  background-image: url("../img/searchG.png");
 }
 
 #user {
-  background-image: url("/img/usuarioN.png");
+  background-image: url("../img/usuarioN.png");
 }
 
 #user:active {
-  background-image: url("/img/usuarioG.png");
+  background-image: url("../img/usuarioG.png");
 }
 
 /*********fin footer**************/
@@ -245,7 +245,7 @@ footer nav ul li a {
   position: relative;
   width: 100%;
   height: 250px;
-  background: url(/img/platoSinFondo2.png);
+  background: url(../img/platoSinFondo2.png);
   background-size:contain;
   background-position: center;
   background-repeat: no-repeat;
