@@ -1,0 +1,110 @@
+<!--AIzaSyCAkAkfChFvsZcezdaxsmCDetULsrDEyWY-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/contacto.css">
+
+    <script src="../script/contacto.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAkAkfChFvsZcezdaxsmCDetULsrDEyWY&callback=initMap"
+        async defer></script>
+
+</head>
+
+<body>
+    <div class="contenedor"> </div>
+    <header>
+        <section class="menuHeader">
+            <nav>
+                <ul>
+                    <li class="lilogo">
+                        <a href="../index.html"><img id="log" src="../logo.png" alt="Logo restaurant" width="100%"></a>
+                    </li>
+                    <ul class="menuOculto oculto animate__animated animate__backOutRight">
+                        <li><a href="">Menú</a></li>
+                        <li><a href="./contacto.html"> Contacto</a></li>
+                        <li><a href="">Reservas</a></li>
+                    </ul>
+                    <li class="lihamb"><a><img src="../img/menuburguerB.png" alt="Burguer menu" width="100%"></a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <div class="fondo">
+        <main>
+            <section class="contacto">
+                <form action="" class="formulario" id="formulario">
+                    <h3>Contacto</h3>
+                    <div>
+                        <label>Nombre:</label>
+                        <input type="text" name="nombre" id="" placeholder="Ingresa tu nombre">
+                        <label>Correo Electrónico:</label>
+                        <input type="text" name="correo" id="" placeholder="Ingresa tu correo">
+                        <label>Asunto:</label>
+                        <input type="text" name="asunto" id="" placeholder="Motivo de contacto">
+                        <label>Mensaje:</label>
+                        <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Ingresa tu mensaje"></textarea>
+                        <label>Para enviar complete el CAPTCHA</label>
+                        <p class="captcha" id="captchaAleatorio"></p>
+                        <input type="text" name="captcha" id="captchaUsuario">
+                        <button type="submit" id="btnEnviar">Enviar</button>
+                        <input type="button" value="Borrar campos" id="borrarCampos">
+                    </div>
+                </form>
+                <a href="mailto:restaurant@resto.com.ar" id="mail"></a>
+            </section>
+
+        </main>
+        <section class="map">
+            <h3>Encuentrenos aquí</h3>
+            <div id="map"></div>
+        </section>
+
+        <footer>
+            <div class="searcher oculto">
+                <input type="text" name="search" id="inpSearch" placeholder="Buscar">
+
+                <a href="" id="aSend"></a>
+            </div>
+            <section class="menuFooter">
+
+                <nav>
+                    <ul>
+                        <li id="home">
+                            <a href="../index.html"></a>
+                        </li>
+                        <li id="search">
+                            <a href=""></a>
+                        </li>
+                        <li id="call">
+                            <a href="tel:223155012343"></a>
+                        </li>
+                        <li id="user">
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="api">
+                <!--seccion API-->
+
+            </section>
+        </footer>
+    </div>
+
+</body>
+
+</html>

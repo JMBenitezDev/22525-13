@@ -1,0 +1,51 @@
+#map{
+    width: 400px;
+    height: 200px;
+}
+.fondo{
+    padding-top: 100px;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    outline: 1px solid gray;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+    border-radius: 30px;
+}
+.formulario h3, label,input,textarea{
+    width: 100%;
+    display: block;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mail{
+    display: none;
+}
+#borrarCampos,#captchaUsuario{
+    width: 100px;
+    margin: auto;
+}
+#borrarCampos{
+    width: 100px;
+    height: 22px;
+    border-radius: 10px;
+}
+#btnEnviar{
+    width: 140px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+div.fondo {
+    top: 70px;
+  }

@@ -30,7 +30,8 @@ div.fondo {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: url("/img/fondo2.png");
+  /*background-image: url("/img/fondo2.png");*/
+  background-color: #bababaa5;
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -41,7 +42,9 @@ div.fondo {
 
 /**********fin fondo*********/
 /****************** header *****************/
-
+header{
+  position: fixed;
+}
 header nav ul {
   display: flex;
   flex-wrap: nowrap;
@@ -80,7 +83,7 @@ header nav ul li a,
 }
 
 .lilogo {
-  width: 30%;
+  width: 25%;
 }
 
 .lihamb {
@@ -89,14 +92,14 @@ header nav ul li a,
 
 /******************fin header *****************/
 /******************slider *****************/
-main .slider {
+/*main .slider {
   background-image: url("/img/platoYcopa.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 30vw;
-
-}
+margin-top: 80px;
+}*/
 
 /******************fin slider *****************/
 /**************footer******************/
@@ -242,13 +245,14 @@ footer nav ul li a {
   position: relative;
   width: 100%;
   height: 250px;
-  background: url(/img/platoSinFondo.png);
-  background-size: contain;
+  background: url(/img/platoSinFondo2.png);
+  background-size:contain;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 15vw;
 }
 
 .banner #text {
