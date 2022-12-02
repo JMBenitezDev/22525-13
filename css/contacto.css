@@ -2,10 +2,19 @@
     width: 400px;
     height: 200px;
 }
-.fondo{
-    padding-top: 100px;
+body{
+    height: 1000px;
 }
-
+main{
+    background-image: url(../img/fondoG.png);
+}
+.fondo{
+    padding-top: 70px;
+}
+p.captcha{
+    color: white;
+    font-size: 25px;
+}
 .formulario{
     display: flex;
     flex-wrap: wrap;
@@ -17,11 +26,27 @@
     margin-bottom: 3%;
     padding-bottom: 3%;
     border-radius: 30px;
+    
 }
-.formulario h3, label,input,textarea{
+.formulario h3, label,textarea{
     width: 100%;
     display: block;
+    color: rgb(193, 189, 249);
+    padding-top: 3%;
+    text-align: center;
 }
+
+h3{
+    text-align: center;
+}
+
+.formulario input{
+    width: 100%;
+    display: block;
+    color: rgb(193, 189, 249);
+}
+
+
 .contacto{
     display: flex;
     justify-content: center;
@@ -33,6 +58,8 @@
 #borrarCampos,#captchaUsuario{
     width: 100px;
     margin: auto;
+    color: brown;
+    
 }
 #borrarCampos{
     width: 100px;
@@ -46,6 +73,20 @@
     margin: 5px;
 }
 
-div.fondo {
+/*div.fondo {
     top: 70px;
-  }
+  }*/
+
+.oculto{
+    display: none;
+}
+.visible{
+    display: block;
+}
+.advertencia{
+    color: red;
+    font-size: 15px;
+}
+footer{
+    padding-top: 155px;
+}

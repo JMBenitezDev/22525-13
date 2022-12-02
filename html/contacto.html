@@ -48,16 +48,18 @@
                 <form action="" class="formulario" id="formulario">
                     <h3>Contacto</h3>
                     <div>
+                        <label>Correo Electrónico:</label>
+                        <h4 class="correo oculto advertencia">Debes ingresar un correo válido</h4>
+                        <input type="text" name="correo" id="" placeholder="Ingresa tu correo">
                         <label>Nombre:</label>
                         <input type="text" name="nombre" id="" placeholder="Ingresa tu nombre">
-                        <label>Correo Electrónico:</label>
-                        <input type="text" name="correo" id="" placeholder="Ingresa tu correo">
                         <label>Asunto:</label>
                         <input type="text" name="asunto" id="" placeholder="Motivo de contacto">
                         <label>Mensaje:</label>
                         <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Ingresa tu mensaje"></textarea>
                         <label>Para enviar complete el CAPTCHA</label>
                         <p class="captcha" id="captchaAleatorio"></p>
+                        <h4 class="cpt oculto advertencia">Captcha incorrecto, intente nuevamente.</h4>
                         <input type="text" name="captcha" id="captchaUsuario">
                         <button type="submit" id="btnEnviar">Enviar</button>
                         <input type="button" value="Borrar campos" id="borrarCampos">
@@ -69,7 +71,9 @@
         </main>
         <section class="map">
             <h3>Encuentrenos aquí</h3>
-            <div id="map"></div>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50767.53526006204!2d-59.183901583276466!3d-37.319515708287504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911f9b2733946f%3A0xceef2c76899c202d!2sTandil%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1669943281193!5m2!1ses-419!2sar" width="412" height="412" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
 
         <footer>

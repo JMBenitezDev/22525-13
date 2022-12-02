@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
 
 
-  let text = document.querySelector("#text");
+ /* let text = document.querySelector("#text");
   window.addEventListener("scroll", () => {
     let value = window.scrollY;
     text.style.marginBottom = value * 2 + "px";
-  })
+  })*/
 
   let flag = 0;
   const element = document.querySelector('.menuOculto');
