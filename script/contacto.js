@@ -1,20 +1,3 @@
-
-/***********mapa ********** */
-/*var map;
-function initMap() {
-  let coord = { lat: -37.328762, lng: -59.136906 };
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: coord,
-    zoom: 8
-  });
-  var marker = new google.maps.Marker({
-    position: coord,
-    map: map
-  });
-
-}*/
-/***********fin de mapa*********** */
-
 document.addEventListener("DOMContentLoaded", () => {
   /*******header************ */
 

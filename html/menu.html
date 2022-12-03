@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/menu.css">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Restaurant</title>
-        <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="../css/contacto.css">
-        <link rel="stylesheet" href="../css/menu.css">
-    
-       
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAkAkfChFvsZcezdaxsmCDetULsrDEyWY&callback=initMap"
-            async defer></script>
-    
-    </head>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAkAkfChFvsZcezdaxsmCDetULsrDEyWY&callback=initMap"
+        async defer></script>
+
+</head>
+
 <body>
     <!--<div class="contenedor"> </div>-->
+    <a name="top" id="top"></a>
     <header>
         <section class="menuHeader">
             <nav>
@@ -44,88 +45,331 @@
     </header>
 
 
-        <article class="contPrincipal">
-            <div class="containerL">
-                <input type="radio" name="slider" class="d-none" id="s1" checked>
-                <input type="radio" name="slider" class="d-none" id="s2">
-                <input type="radio" name="slider" class="d-none" id="s3">
-                <input type="radio" name="slider" class="d-none" id="s4">
-                <input type="radio" name="slider" class="d-none" id="s5">
+    <article class="contPrincipal">
+        <div class="containerL">
+            <input type="radio" name="slider" class="d-none" id="s1" checked>
+            <input type="radio" name="slider" class="d-none" id="s2">
+            <input type="radio" name="slider" class="d-none" id="s3">
+            <input type="radio" name="slider" class="d-none" id="s4">
+            <input type="radio" name="slider" class="d-none" id="s5">
 
-                <div class="cardsL">
+            <div class="cardsL">
 
-                    <label for="s1" id="slide1">
-                        <div class="card">
-                            <div class="image">
-                                <img src="../img/logo.png" alt="" class="imgVacia">
-                                <!-- <img class="imgVacia" src="" alt="">-->
-                            </div>
-                            <div class="infos">
-                                <span class="name">Misky</span>
-                                <span class="lorem"><cite> La gente a quien le encanta comer, es la mejor gente (Julia
-                                        Child)</cite></span>
-                            </div>
+                <label for="s1" id="slide1">
+                    <div class="card">
+                        <div class="image">
+                            <img src="../img/logo.png" alt="" class="imgVacia">
+                            <!-- <img class="imgVacia" src="" alt="">-->
                         </div>
-                    </label>
+                        <div class="infos">
+                            <span class="name">Misky</span>
+                            <span class="lorem"><cite> La gente a quien le encanta comer, es la mejor gente (Julia
+                                    Child)</cite></span>
+                        </div>
+                    </div>
+                </label>
 
-                    <label for="s2" id="slide2">
-                        <div class="card">
-                            <div class="image">
-                                <img src="../img/almuerzov.jpg" alt="" class="imgRellena">
-                                <img class="imgVacia goodClass" src="../img/almuerzor.jpg.png" alt="">
-                            </div>
-                            <div class="infos">
-                                <span class="name">Almuerzo</span>
-                                <span class="lorem"><cite>Nuestros almuerzos son capaces de sanar hasta un corazón roto.
-                                        Sí, así son de extra sabrosos. Pruébalos.</cite></span>
-                            </div>
+                <label for="s2" id="slide2">
+                    <div class="card">
+                        <div class="image">
+                            <img src="../img/almuerzov.jpg" alt="" class="imgRellena">
+                            <img class="imgVacia goodClass" src="../img/almuerzor.jpg.png" alt="">
                         </div>
-                    </label>
+                        <div class="infos">
+                            <span class="name">Almuerzo</span>
+                            <span class="lorem"><cite>Nuestros almuerzos son capaces de sanar hasta un corazón roto.
+                                    Sí, así son de extra sabrosos. Pruébalos.</cite></span>
+                        </div>
+                    </div>
+                </label>
 
-                    <label for="s3" id="slide3">
-                        <div class="card">
-                            <div class="image">
-                                <img src="../img/merienda.png" alt="" class="imgRellena">
-                                <img class="imgVacia goodClass" src="../img/meriendr.png" alt="">
-                            </div>
-                            <div class="infos">
-                                <span class="name">Merienda</span>
-                                <span class="lorem"><cite>La siesta y la merienda, al corazón alegran</cite></span>
-                            </div>
+                <label for="s3" id="slide3">
+                    <div class="card">
+                        <div class="image">
+                            <img src="../img/merienda.png" alt="" class="imgRellena">
+                            <img class="imgVacia goodClass" src="../img/meriendr.png" alt="">
                         </div>
-                    </label>
+                        <div class="infos">
+                            <span class="name">Merienda</span>
+                            <span class="lorem"><cite>La siesta y la merienda, al corazón alegran</cite></span>
+                        </div>
+                    </div>
+                </label>
 
-                    <label for="s4" id="slide4">
-                        <div class="card">
-                            <div class="image">
-                                <img src="../img/cenav.jpg" alt="" class="imgRellena">
-                                <img src="../img/cenar.png" alt="" class="imgVacia goodClass">
-                            </div>
-                            <div class="infos">
-                                <span class="name">Cena</span>
-                                <span class="lorem"><cite>La cena es para un día, lo que el postre es para
-                                        cenar.</cite></span>
-                            </div>
+                <label for="s4" id="slide4">
+                    <div class="card">
+                        <div class="image">
+                            <img src="../img/cenav.jpg" alt="" class="imgRellena">
+                            <img src="../img/cenar.png" alt="" class="imgVacia goodClass">
                         </div>
-                    </label>
-                    <label for="s5" id="slide5">
-                        <div class="card">
-                            <div class="image">
-                                <img class="imgRellena" src="../img/desayunov.jpg" alt="">
-                                <img class="imgVacia goodClass" src="../img/desayunor.jpg.png" alt="">
-                            </div>
-                            <div class="infos">
-                                <span class="name">Desayunos</span>
-                                <span class="lorem"><cite>No es un simple desayuno, es una buena forma de comenzar el
-                                        día. Ven y deléitate con el sabor de nuestra comida.</cite></blockquote> </span>
-                            </div>
+                        <div class="infos">
+                            <span class="name">Cena</span>
+                            <span class="lorem"><cite>La cena es para un día, lo que el postre es para
+                                    cenar.</cite></span>
                         </div>
-                    </label>
+                    </div>
+                </label>
+                <label for="s5" id="slide5">
+                    <div class="card">
+                        <div class="image">
+                            <img class="imgRellena" src="../img/desayunov.jpg" alt="">
+                            <img class="imgVacia goodClass" src="../img/desayunor.jpg.png" alt="">
+                        </div>
+                        <div class="infos">
+                            <span class="name">Desayunos</span>
+                            <span class="lorem"><cite>No es un simple desayuno, es una buena forma de comenzar el
+                                    día. Ven y deléitate con el sabor de nuestra comida.</cite></blockquote> </span>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </article>
+    </div>
+    <!--menu-->
+    <section class="especialidadCasa">
+        <!--seccion especialidad de la casa-->
+        <h2 id="textEsp">Especialidad de la casa</h2>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas a
+                        partir de
+                        caldo
+                        de
+                        verduras.
+                    </p>
                 </div>
             </div>
-        </article>
-    </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fondoBanner">
+            <div class="bannerEsp">
+                <!--plato2-->
+                <div class="fotoEspecialidad">
+                    <img src="../img/familyrestaurant7.jpg" alt="">
+                </div>
+                <div class="descripcionEspecialidad">
+                    <p>Una preparación de origen italiano en donde el arroz se cocina por etapas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--fin menu-->
+    <footer>
+        <div class="searcher oculto">
+            <input type="text" name="search" id="inpSearch" placeholder="Buscar">
+
+            <a href="" id="aSend"></a>
+        </div>
+
+
+        <section class="menuFooter">
+
+            <nav>
+                <ul>
+                    <li id="home">
+                        <a href="../index.html"></a>
+                    </li>
+                    <li id="search">
+                        <a href=""></a>
+                    </li>
+                    <li id="call">
+                        <a href="tel:223155012343"></a>
+                    </li>
+                    <li id="user">
+                        <a href=""></a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+    </footer>
     <script src="../script/menu.js"></script>
+    <script src="../script/index.js"></script>
 </body>
 
 </html>
