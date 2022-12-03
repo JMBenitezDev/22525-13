@@ -1,4 +1,4 @@
-// 2. This code loads the IFrame Player API code asynchronously.
+/*// 2. This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
@@ -38,13 +38,14 @@ function onPlayerStateChange(event) {
 function stopVideo() {
   player.stopVideo();
 }
-
+*/
 
 
 
 /**********seccion carrusel animado   ***********/
 document.querySelector(".contPrincipal").addEventListener("click", () => {
   let impSlide = document.querySelector('input[name=slider]:checked');
+  console.log("click");
   switch (impSlide.id) {
       case "s1":
           document.querySelector("#slide1 .imgVacia").classList.add("goodClass")

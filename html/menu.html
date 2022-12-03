@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant</title>
-    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="../css/menu.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <script src="script/index.js"></script>
-</head>
 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurant</title>
+        <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="../css/contacto.css">
+        <link rel="stylesheet" href="../css/menu.css">
+    
+       
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAkAkfChFvsZcezdaxsmCDetULsrDEyWY&callback=initMap"
+            async defer></script>
+    
+    </head>
 <body>
-    <div class="contenedor"> </div>
-    <div class="fondo">
-        <header>
-            <section class="menuHeader">
-                <nav id="navbar">
-                    <ul>
-                        <li class="lilogo">
-                            <a href="index.html"><img id="log" src="./logo.png" alt="Logo restaurant" width="100%"></a>
-                        </li>
-                        <ul class="menuOculto oculto animate__animated animate__backOutRight">
-                            <li><a href="">Menú</a></li>
-                            <li><a href="./html/contacto.html"> Contacto</a></li>
-                            <li><a href="">Reservas</a></li>
-                        </ul>
-                        <li class="lihamb"><a><img src="./img/carro-vacio.png" alt="Burguer menu" width="100%"></a>
-                        <li class="lihamb"><a><img src="./img/menuburguerB.png" alt="Burguer menu" width="100%"></a>
-                        </li>
+    <!--<div class="contenedor"> </div>-->
+    <header>
+        <section class="menuHeader">
+            <nav>
+                <ul>
+                    <li class="lilogo">
+                        <a href="../index.html"><img id="log" src="../logo.png" alt="Logo restaurant" width="100%"></a>
+                    </li>
+                    <ul class="menuOculto oculto animate__animated animate__backOutRight">
+                        <li><a href="">Menú</a></li>
+                        <li><a href="./contacto.html"> Contacto</a></li>
+                        <li><a href="">Reservas</a></li>
                     </ul>
-                </nav>
-            </section>
-        </header>
+                    <li class="lihamb"><a><img src="../img/menuburguerB.png" alt="Burguer menu" width="100%"></a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
 
 
         <article class="contPrincipal">
@@ -52,11 +54,10 @@
 
                 <div class="cardsL">
 
-
                     <label for="s1" id="slide1">
                         <div class="card">
                             <div class="image">
-                                <img src="../img/logo.png" alt="">
+                                <img src="../img/logo.png" alt="" class="imgVacia">
                                 <!-- <img class="imgVacia" src="" alt="">-->
                             </div>
                             <div class="infos">
@@ -67,13 +68,11 @@
                         </div>
                     </label>
 
-
-
                     <label for="s2" id="slide2">
                         <div class="card">
                             <div class="image">
-                                <img src="../img/almuerzov.jpg" alt="">
-                                <img class="imgVacia" src="../img/almuerzor.jpg.png" alt="">
+                                <img src="../img/almuerzov.jpg" alt="" class="imgRellena">
+                                <img class="imgVacia goodClass" src="../img/almuerzor.jpg.png" alt="">
                             </div>
                             <div class="infos">
                                 <span class="name">Almuerzo</span>
@@ -86,8 +85,8 @@
                     <label for="s3" id="slide3">
                         <div class="card">
                             <div class="image">
-                                <img src="../img/merienda.png" alt="">
-                                <img class="imgVacia" src="../img/meriendr.png" alt="">
+                                <img src="../img/merienda.png" alt="" class="imgRellena">
+                                <img class="imgVacia goodClass" src="../img/meriendr.png" alt="">
                             </div>
                             <div class="infos">
                                 <span class="name">Merienda</span>
@@ -99,8 +98,8 @@
                     <label for="s4" id="slide4">
                         <div class="card">
                             <div class="image">
-                                <img src="../img/cenav.jpg" alt="">
-                                <img class="imgVacia" src="../img/cenar.png" alt="">
+                                <img src="../img/cenav.jpg" alt="" class="imgRellena">
+                                <img src="../img/cenar.png" alt="" class="imgVacia goodClass">
                             </div>
                             <div class="infos">
                                 <span class="name">Cena</span>
@@ -113,7 +112,7 @@
                         <div class="card">
                             <div class="image">
                                 <img class="imgRellena" src="../img/desayunov.jpg" alt="">
-                                <img class="imgVacia" src="../img/desayunor.jpg.png" alt="">
+                                <img class="imgVacia goodClass" src="../img/desayunor.jpg.png" alt="">
                             </div>
                             <div class="infos">
                                 <span class="name">Desayunos</span>
@@ -126,6 +125,7 @@
             </div>
         </article>
     </div>
+    <script src="../script/menu.js"></script>
 </body>
 
 </html>

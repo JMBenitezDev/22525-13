@@ -69,6 +69,7 @@ header nav ul li a,
 .menuOculto li {
   font-size: medium;
   font-weight: 600;
+  display: inline;
 }
 
 .oculto {
@@ -81,7 +82,8 @@ header nav ul li a,
 
 .menuOculto {
   width: 55%;
-
+display:flex;
+flex-wrap: nowrap;
 }
 
 .lilogo {
