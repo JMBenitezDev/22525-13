@@ -5,6 +5,10 @@
 .fotoEspecialidad img{
     object-fit:cover;   
 }
+footer{
+    background-image: url("../img/fondoH.png");
+    padding: 10px;
+}
 
     /*************carrusel animado **************/
     .contPrincipal {
